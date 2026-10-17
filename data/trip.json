@@ -180,11 +180,28 @@
     "nav": "Stay",
     "eyebrow": "El alojamiento",
     "title": "Where we're staying",
-    "placeholder": true,
-    "status": "To be confirmed",
-    "area": "Central Madrid",
-    "neighborhoods": ["Sol", "La Latina", "Huertas"],
-    "body": "The rental isn't chosen yet. We're aiming for the center: Sol, La Latina, or Huertas. Check-in notes will go here once we have a place."
+    "placeholder": false,
+    "status": "Booked",
+    "area": "Santa Ana apartment",
+    "stats": [
+      { "value": "4", "label": "Bedrooms" },
+      { "value": "3", "label": "Baths" }
+    ],
+    "neighborhoods": ["Antón Martín", "Lavapiés", "Plaza de Santa Ana"],
+    "body": "Entire apartment hosted by Marta & Enrique, in the Antón Martín / Lavapiés area near Plaza de Santa Ana.",
+    "link": {
+      "label": "Airbnb listing",
+      "href": "https://www.airbnb.com/rooms/20842630"
+    },
+    "details": [
+      { "label": "Check-in", "value": "Saturday, February 13, after 4:00 PM" },
+      { "label": "Checkout", "value": "Saturday, February 20, by 11:00 AM" },
+      { "label": "Quiet hours", "value": "10 PM–8 AM" }
+    ],
+    "note": {
+      "label": "Packing",
+      "text": "Bring passports. Everyone 16 and older shows ID at check-in. Bring a portable smoke and CO detector."
+    }
   },
   "days": {
     "id": "days",
@@ -200,11 +217,15 @@
         "items": [
           {
             "time": "8:50 AM",
-            "text": "Brent, Sharon, Stephanie, Natalie, Justin, and Bennett land at Madrid (MAD)."
+            "text": "Brent, Sharon, Stephanie, Natalie, Justin, and Bennett land at Madrid (MAD). Check-in is not until 4:00 PM, so plan luggage storage."
           },
           {
             "time": "2:25 PM",
             "text": "Stephen lands at Madrid (MAD)."
+          },
+          {
+            "time": "4:00 PM",
+            "text": "Check-in opens at the Santa Ana apartment."
           }
         ]
       },
@@ -260,6 +281,10 @@
         "title": "Departure",
         "tone": "depart",
         "items": [
+          {
+            "time": "11:00 AM",
+            "text": "Checkout from the Santa Ana apartment by 11:00 AM."
+          },
           {
             "time": "12:00 PM",
             "text": "Chicago group departs Madrid (MAD) for Chicago. Be at the airport around 9:00 AM."

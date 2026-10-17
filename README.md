@@ -50,7 +50,9 @@ Links must start with `https://` (or `tel:` for a phone number).
 
 ### The stay card
 
-Update `stay.status`, `stay.area`, `stay.neighborhoods`, and `stay.body`. Set `"placeholder": false` once the rental is chosen.
+Set `"placeholder": false` once a place is booked. Then edit `area`, `stats`, `neighborhoods`, `body`, `link`, `details`, and `note`.
+
+Still leave out the street address, confirmation code, price, and any host phone or email.
 
 ## Privacy
 
@@ -59,7 +61,7 @@ This repository is public. Do not put any of these in `data/trip.json` or anywhe
 - confirmation codes or ticket numbers
 - prices
 - street addresses
-- landlord or host names, phone numbers, or email
+- host phone numbers or email
 - last names
 
 Flight numbers, clock times, and neighborhoods are fine.

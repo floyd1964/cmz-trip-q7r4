@@ -275,12 +275,39 @@
     var card = h("article", { className: block.placeholder ? "stay is-placeholder" : "stay" });
     if (block.status) card.append(h("p", { className: "stay-status", text: block.status }));
     if (block.area) card.append(h("p", { className: "stay-area", text: block.area }));
+    if (block.stats && block.stats.length) {
+      card.append(h("ul", { className: "stay-stats" }, block.stats.map(function (stat) {
+        return h("li", null,
+          h("span", { className: "stay-stat-value", text: stat.value }),
+          h("span", { className: "stay-stat-label", text: stat.label })
+        );
+      })));
+    }
     if (block.neighborhoods && block.neighborhoods.length) {
       card.append(h("ul", { className: "pills" }, block.neighborhoods.map(function (name) {
         return h("li", { text: name });
       })));
     }
     if (block.body) card.append(h("p", { className: "stay-body", text: block.body }));
+    if (block.link && block.link.href) {
+      card.append(makeLink(block.link.href, block.link.label || block.link.href, "inline"));
+    }
+    if (block.details && block.details.length) {
+      card.append(h("dl", { className: "stay-details" }, block.details.map(function (detail) {
+        return h("div", null,
+          h("dt", { text: detail.label || "" }),
+          h("dd", { text: detail.value || "" })
+        );
+      })));
+    }
+    if (block.note) {
+      var noteText = typeof block.note === "string" ? block.note : block.note.text;
+      var noteLabel = typeof block.note === "string" ? "" : block.note.label;
+      card.append(h("div", { className: "stay-note" },
+        noteLabel ? h("p", { className: "stay-note-label", text: noteLabel }) : null,
+        h("p", { text: noteText || "" })
+      ));
+    }
     return h("section", { className: "section", attrs: { id: block.id } }, sectionHead(block), card);
   }
 
