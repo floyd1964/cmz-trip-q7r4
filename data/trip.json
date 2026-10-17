@@ -1,0 +1,372 @@
+{
+  "_note": "Edit this file to update the site. Do not add last names, confirmation codes, ticket numbers, prices, street addresses, or host contact info. See README.md.",
+  "meta": {
+    "title": "Madrid • February 13–20, 2027",
+    "description": "Family trip to Madrid, February 13–20, 2027."
+  },
+  "hero": {
+    "kicker": "El viaje",
+    "year": "2027",
+    "place": "Madrid",
+    "dates": "February 13–20, 2027",
+    "lede": "Seven flying in. Kevin already there. A week in the center of the city.",
+    "countdownTo": "2027-02-13T00:00:00+01:00",
+    "tripEnds": "2027-02-21T00:00:00+01:00",
+    "timezoneLabel": "Madrid time",
+    "countdownCaption": "Until February 13",
+    "duringLabel": "We're in Madrid",
+    "duringCaption": "The week is underway.",
+    "afterLabel": "Until next time",
+    "afterCaption": "Home again."
+  },
+  "travelers": {
+    "id": "travelers",
+    "nav": "Who",
+    "eyebrow": "Los viajeros",
+    "title": "Who's coming",
+    "intro": "Seven of us are traveling in. Kevin is in Madrid this semester and will see us while we're there.",
+    "groups": [
+      { "id": "chicago", "label": "Flying from Chicago" },
+      { "id": "los-angeles", "label": "Flying from Los Angeles" },
+      { "id": "madrid", "label": "Already in Madrid" }
+    ],
+    "people": [
+      { "name": "Brent", "group": "chicago" },
+      { "name": "Sharon", "group": "chicago" },
+      { "name": "Stephanie", "group": "chicago" },
+      { "name": "Natalie", "group": "chicago" },
+      { "name": "Justin", "group": "chicago" },
+      { "name": "Bennett", "group": "chicago", "badge": "Baby", "kind": "baby" },
+      { "name": "Stephen", "group": "los-angeles" },
+      {
+        "name": "Kevin",
+        "group": "madrid",
+        "badge": "Visiting",
+        "kind": "visiting",
+        "detail": "Studying in Madrid this semester and living in the Embajadores neighborhood.",
+        "link": {
+          "label": "Universidad Pontificia Comillas",
+          "href": "https://www.comillas.edu"
+        }
+      }
+    ]
+  },
+  "flights": {
+    "id": "flights",
+    "nav": "Flights",
+    "eyebrow": "Los vuelos",
+    "title": "Flights",
+    "intro": "Times are local to each airport. Madrid is 7 hours ahead of Chicago and 9 hours ahead of Los Angeles.",
+    "groups": [
+      {
+        "label": "From Chicago",
+        "who": "Brent, Sharon, Stephanie, Natalie, Justin, and Bennett",
+        "legs": [
+          {
+            "label": "To Madrid",
+            "segments": [
+              {
+                "flight": "AA 8754",
+                "operatedBy": "Operated by Iberia",
+                "from": {
+                  "code": "ORD",
+                  "city": "Chicago",
+                  "time": "5:40 PM",
+                  "zone": "CT",
+                  "date": "Fri, Feb 12"
+                },
+                "to": {
+                  "code": "MAD",
+                  "city": "Madrid",
+                  "time": "8:50 AM",
+                  "date": "Sat, Feb 13"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Back home",
+            "segments": [
+              {
+                "flight": "AA 8666",
+                "operatedBy": "Operated by Iberia",
+                "from": {
+                  "code": "MAD",
+                  "city": "Madrid",
+                  "time": "12:00 PM",
+                  "date": "Sat, Feb 20"
+                },
+                "to": {
+                  "code": "ORD",
+                  "city": "Chicago",
+                  "time": "2:55 PM",
+                  "zone": "CT",
+                  "date": "Sat, Feb 20"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "From Los Angeles",
+        "who": "Stephen",
+        "legs": [
+          {
+            "label": "To Madrid",
+            "segments": [
+              {
+                "flight": "AA 8568",
+                "operatedBy": "Operated by Iberia",
+                "from": {
+                  "code": "LAX",
+                  "city": "Los Angeles",
+                  "time": "6:15 PM",
+                  "zone": "PT",
+                  "date": "Fri, Feb 12"
+                },
+                "to": {
+                  "code": "MAD",
+                  "city": "Madrid",
+                  "time": "2:25 PM",
+                  "date": "Sat, Feb 13"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Back home",
+            "segments": [
+              {
+                "flight": "AA 6805",
+                "operatedBy": "Operated by British Airways",
+                "from": {
+                  "code": "MAD",
+                  "city": "Madrid",
+                  "time": "2:00 PM",
+                  "date": "Sat, Feb 20"
+                },
+                "to": {
+                  "code": "LHR",
+                  "city": "London",
+                  "time": "3:25 PM",
+                  "date": "Sat, Feb 20"
+                }
+              },
+              {
+                "flight": "AA 135",
+                "from": {
+                  "code": "LHR",
+                  "city": "London",
+                  "time": "4:55 PM",
+                  "date": "Sat, Feb 20"
+                },
+                "to": {
+                  "code": "LAX",
+                  "city": "Los Angeles",
+                  "time": "8:15 PM",
+                  "zone": "PT",
+                  "date": "Sat, Feb 20"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "stay": {
+    "id": "stay",
+    "nav": "Stay",
+    "eyebrow": "El alojamiento",
+    "title": "Where we're staying",
+    "placeholder": true,
+    "status": "To be confirmed",
+    "area": "Central Madrid",
+    "neighborhoods": ["Sol", "La Latina", "Huertas"],
+    "body": "The rental isn't chosen yet. We're aiming for the center: Sol, La Latina, or Huertas. Check-in notes will go here once we have a place."
+  },
+  "days": {
+    "id": "days",
+    "nav": "Days",
+    "eyebrow": "Día a día",
+    "title": "Day by day",
+    "intro": "Saturday, February 13 through Saturday, February 20.",
+    "items": [
+      {
+        "date": "2027-02-13",
+        "title": "Arrival",
+        "tone": "arrive",
+        "items": [
+          {
+            "time": "8:50 AM",
+            "text": "Brent, Sharon, Stephanie, Natalie, Justin, and Bennett land at Madrid (MAD)."
+          },
+          {
+            "time": "2:25 PM",
+            "text": "Stephen lands at Madrid (MAD)."
+          }
+        ]
+      },
+      {
+        "date": "2027-02-14",
+        "title": "Possible plans",
+        "tone": "option",
+        "items": [
+          {
+            "kind": "option",
+            "badge": "Possible option",
+            "text": "Real Madrid vs Athletic Club, LaLiga, at Estadio Santiago Bernabéu. Date and time to be confirmed by LaLiga."
+          },
+          {
+            "kind": "suggestion",
+            "badge": "Suggestion",
+            "text": "El Rastro, the Sunday flea market."
+          }
+        ]
+      },
+      {
+        "date": "2027-02-15",
+        "title": "Plans coming soon",
+        "tone": "quiet",
+        "items": []
+      },
+      {
+        "date": "2027-02-16",
+        "title": "Plans coming soon",
+        "tone": "quiet",
+        "items": []
+      },
+      {
+        "date": "2027-02-17",
+        "title": "Plans coming soon",
+        "tone": "quiet",
+        "items": []
+      },
+      {
+        "date": "2027-02-18",
+        "title": "Plans coming soon",
+        "tone": "quiet",
+        "items": []
+      },
+      {
+        "date": "2027-02-19",
+        "title": "Plans coming soon",
+        "tone": "quiet",
+        "items": []
+      },
+      {
+        "date": "2027-02-20",
+        "title": "Departure",
+        "tone": "depart",
+        "items": [
+          {
+            "time": "12:00 PM",
+            "text": "Chicago group departs Madrid (MAD) for Chicago. Be at the airport around 9:00 AM."
+          },
+          {
+            "time": "2:00 PM",
+            "text": "Stephen departs Madrid (MAD) for London, then Los Angeles."
+          }
+        ]
+      }
+    ]
+  },
+  "guides": [
+    {
+      "id": "getting-around",
+      "nav": "Around",
+      "eyebrow": "Moverse",
+      "title": "Getting around",
+      "placeholder": true,
+      "body": "Notes on the airport, the metro, and walking the center will go here.",
+      "items": [],
+      "links": []
+    },
+    {
+      "id": "day-trips",
+      "nav": "Trips",
+      "eyebrow": "Excursiones",
+      "title": "Day trips",
+      "placeholder": true,
+      "body": "If we leave the city for a day, the plan will go here.",
+      "items": [],
+      "links": []
+    },
+    {
+      "id": "dining",
+      "nav": "Dining",
+      "eyebrow": "Comer",
+      "title": "Dining",
+      "placeholder": true,
+      "body": "Restaurants and reservations will go here.",
+      "items": [],
+      "links": []
+    },
+    {
+      "id": "experiences",
+      "nav": "Experiences",
+      "eyebrow": "Experiencias",
+      "title": "Experiences",
+      "placeholder": true,
+      "body": "Museums, walks, and other ideas will go here.",
+      "items": [],
+      "links": []
+    },
+    {
+      "id": "sports",
+      "nav": "Sports",
+      "eyebrow": "Deporte",
+      "title": "Sports",
+      "placeholder": false,
+      "body": "A possible LaLiga match — Real Madrid vs Athletic Club at Estadio Santiago Bernabéu — is on the Sunday, February 14 card. LaLiga still has to confirm the date and time. Anything else we add will go here.",
+      "items": [],
+      "links": []
+    }
+  ],
+  "useful": {
+    "id": "useful",
+    "nav": "Info",
+    "eyebrow": "Útil",
+    "title": "Useful info",
+    "intro": "Madrid is 7 hours ahead of Chicago and 9 hours ahead of Los Angeles.",
+    "facts": [
+      {
+        "label": "Emergency",
+        "value": "112",
+        "href": "tel:112",
+        "note": "Police, ambulance, and fire."
+      },
+      {
+        "label": "Currency",
+        "value": "EUR",
+        "note": "Euro."
+      },
+      {
+        "label": "Ahead of Chicago",
+        "value": "7 hours"
+      },
+      {
+        "label": "Ahead of Los Angeles",
+        "value": "9 hours"
+      }
+    ]
+  },
+  "map": {
+    "id": "map",
+    "nav": "Map",
+    "eyebrow": "El mapa",
+    "title": "Shared map",
+    "body": "Pins for the week live on a shared Google My Map. If the frame below is blank, the map isn't public yet — the button opens it the same way.",
+    "embedTitle": "Shared Google My Map for the Madrid trip",
+    "embed": "https://www.google.com/maps/d/embed?mid=19z1tkgo_Py98LA7805FGJot_qBCmXBo",
+    "link": {
+      "label": "Open the shared map",
+      "href": "https://www.google.com/maps/d/viewer?mid=19z1tkgo_Py98LA7805FGJot_qBCmXBo"
+    }
+  },
+  "footer": {
+    "line": "Madrid · February 13–20, 2027",
+    "note": "For the family — from Chicago, Los Angeles, and Embajadores."
+  }
+}
