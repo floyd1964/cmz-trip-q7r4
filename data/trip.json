@@ -357,7 +357,7 @@
     "nav": "Map",
     "eyebrow": "El mapa",
     "title": "Shared map",
-    "body": "Pins for the week live on a shared Google My Map. If the frame below is blank, the map isn't public yet — the button opens it the same way.",
+    "body": "Pins for the week live on a shared Google My Map. If the preview below is blank or blocked, the map is not public yet — the button opens it directly.",
     "embedTitle": "Shared Google My Map for the Madrid trip",
     "embed": "https://www.google.com/maps/d/embed?mid=19z1tkgo_Py98LA7805FGJot_qBCmXBo",
     "link": {

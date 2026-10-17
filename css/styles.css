@@ -894,13 +894,13 @@ a.fact-link {
 }
 
 .map-frame {
-  margin-top: 0.95rem;
+  margin-top: 0.85rem;
   overflow: hidden;
   background: #e6ddd1;
   border: 1px solid var(--line);
   border-radius: 18px;
-  aspect-ratio: 3 / 4;
-  max-height: 70vh;
+  aspect-ratio: 4 / 3;
+  max-height: 320px;
 }
 
 .map-frame iframe {
@@ -915,7 +915,7 @@ a.fact-link {
   justify-content: center;
   width: 100%;
   min-height: 48px;
-  margin-top: 0.8rem;
+  margin-top: 0.95rem;
   padding: 0.7rem 1rem;
   border-radius: 999px;
   background: var(--terracotta-deep);
@@ -1009,7 +1009,7 @@ a.fact-link {
 
   .map-frame {
     aspect-ratio: 16 / 10;
-    max-height: 520px;
+    max-height: 380px;
   }
 }
 

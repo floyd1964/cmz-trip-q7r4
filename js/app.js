@@ -366,6 +366,9 @@
 
   function renderMap(block) {
     var section = h("section", { className: "section", attrs: { id: block.id } }, sectionHead(block));
+    if (block.link) {
+      section.append(makeLink(block.link.href, block.link.label, "button"));
+    }
     var embed = safeUrl(block.embed);
     if (embed && embed.indexOf("https:") === 0) {
       section.append(h("div", { className: "map-frame" },
@@ -378,9 +381,6 @@
           }
         })
       ));
-    }
-    if (block.link) {
-      section.append(makeLink(block.link.href, block.link.label, "button"));
     }
     return section;
   }
