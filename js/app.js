@@ -303,9 +303,11 @@
     if (block.note) {
       var noteText = typeof block.note === "string" ? block.note : block.note.text;
       var noteLabel = typeof block.note === "string" ? "" : block.note.label;
+      var noteMore = typeof block.note === "string" ? "" : block.note.more;
       card.append(h("div", { className: "stay-note" },
         noteLabel ? h("p", { className: "stay-note-label", text: noteLabel }) : null,
-        h("p", { text: noteText || "" })
+        noteText ? h("p", { className: "stay-note-text", text: noteText }) : null,
+        noteMore ? h("p", { className: "stay-note-text", text: noteMore }) : null
       ));
     }
     return h("section", { className: "section", attrs: { id: block.id } }, sectionHead(block), card);
