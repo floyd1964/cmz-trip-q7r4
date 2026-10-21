@@ -726,6 +726,10 @@ a.inline {
   text-transform: uppercase;
 }
 
+.stay-note-text + .stay-note-text {
+  margin-top: 0.55rem;
+}
+
 .pills {
   display: flex;
   flex-wrap: wrap;
